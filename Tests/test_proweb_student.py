@@ -83,6 +83,7 @@ def test_auth_firefox(driver_firefox):
     auth_page.enter_password("Kammy_2112")
     time.sleep(2)
     auth_page.click_btn_password()
+    time.sleep(2)
 
     try:
         auth_page.click_btn_session()
@@ -99,6 +100,7 @@ def test_auth_firefox(driver_firefox):
     home_page.click_pause()
     time.sleep(2)
     home_page.click_fullscreen_exit()
+    time.sleep(2)
 
 
 def test_auth_edge(driver_edge):
